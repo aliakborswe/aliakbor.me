@@ -1,5 +1,6 @@
 .footer-area {
-    background-color: #1d293a;
+    /* background-color: #1d293a; */
+    color: white;
 }
 
 .footer {
@@ -32,7 +33,7 @@
     position: absolute;
     content: "";
     left: 0;
-    background-color: #00cf5d;
+    background-color: #cf9b00;
     height: 3px;
     width: 100%;
     bottom: 0;
@@ -70,7 +71,7 @@
     display: inline-block;
     cursor: pointer;
     margin-left: 15px;
-    background-color: #00cf5d;
+    background-color: #cfc800;
     padding: 2px 5px;
     border-radius: 4px;
 }

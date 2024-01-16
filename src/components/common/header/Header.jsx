@@ -23,14 +23,12 @@ const Header = () => {
     }
   };
   return (
-    <header className='compaq'>
+    <header>
       <Container padding='25px 25px'>
         <div className='header'>
           <div className='logo'>
             <h1>
-              <Link href='/'>
-                <h1>Ali-Akbor</h1>
-              </Link>
+              <Link href='/'>Ali-Akbor</Link>
             </h1>
           </div>
           <div onClick={() => setMobileNav(!mobileNav)} className='mobile-nav'>
