@@ -15,7 +15,7 @@ const About = () => {
         <div className='about'>
           <div className='about-details'>
             <p>
-              Hello! I'm Ali Akbor, a passionate software engineer. I develop
+              Hello! I am Ali Akbor, a passionate software engineer. I develop
               web applications. My core skill is based on JavaScript and I love
               to do most of the things using JavaScript. I love to make the web
               more open to the world. I am available for any kind of job
