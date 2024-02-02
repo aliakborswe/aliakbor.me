@@ -1,5 +1,4 @@
-import { Inter } from 'next/font/google'
-import Head from 'next/head';
+import { Inter } from 'next/font/google';
 import './globals.css'
 import Header from '@/components/common/header/Header'
 import Footer from '@/components/common/footer/Footer'
@@ -15,10 +14,6 @@ const RootLayout = ({ children }) =>{
   return (
     <>
     <html lang="en">
-    <Head>
-        <link rel="icon" href="/favicon.png" />
-      </Head>
-      
       <body>
         <Header/>
         {children}
