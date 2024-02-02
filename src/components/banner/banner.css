@@ -17,7 +17,7 @@
 
 .banner p {
     font-size: 22px;
-    color: #00cf5d;
+    color: #029FDC;
 }
 
 .banner h1 {
@@ -27,7 +27,7 @@
 }
 
 .banner h3 {
-    color: #00cf5d;
+    color: #029FDC;
 }
 
 .banner ul {
@@ -47,7 +47,7 @@
     content: "";
     left: -15px;
     top: 10px;
-    background-color: #00cf5d;
+    background-color: #029FDC;
     width: 8px;
     height: 8px;
     border-radius: 10px;

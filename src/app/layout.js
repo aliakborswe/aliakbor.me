@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import Head from 'next/head';
 import './globals.css'
 import Header from '@/components/common/header/Header'
 import Footer from '@/components/common/footer/Footer'
@@ -12,14 +13,21 @@ export const metadata = {
 
 const RootLayout = ({ children }) =>{
   return (
+    <>
     <html lang="en">
-      <body className={`inter.className bg-gradient-to-r from-indigo-900 from-10% via-sky-700 via-50% to-emerald-700 to-90%`}>
+    <Head>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      
+      <body>
         <Header/>
         {children}
         <Footer/>
         
         </body>
     </html>
+    </>
+    
   )
 }
 export default RootLayout;

@@ -1,6 +1,5 @@
 .footer-area {
-    /* background-color: #1d293a; */
-    color: white;
+    background-color: #1d293a;
 }
 
 .footer {
@@ -33,7 +32,7 @@
     position: absolute;
     content: "";
     left: 0;
-    background-color: #cf9b00;
+    background-color: #029FDC;
     height: 3px;
     width: 100%;
     bottom: 0;
@@ -52,27 +51,24 @@
 
 .footer .copyright .github li {
     margin-left: 5px;
-    text-decoration: none;
 }
+
 
 .footer .copyright .github li p {
     font-weight: 300;
     font-size: 14px;
-    display: flex;
-    
 }
 
 .footer .copyright p {
     text-transform: uppercase;
     font-weight: 900;
 }
-
 .footer .copyright p span {
     display: inline-block;
     cursor: pointer;
     margin-left: 15px;
-    background-color: #cfc800;
-    padding: 2px 5px;
+    background-color: #029FDC;
+    padding:5px;
     border-radius: 4px;
 }
 

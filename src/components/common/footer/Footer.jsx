@@ -9,7 +9,7 @@ import { languages } from "@/data/languages";
 const Footer = () => {
   const handleScroll = (e) => {
     e.preventDefault();
-    window.scroll({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
   return (
@@ -36,17 +36,6 @@ const Footer = () => {
                 >
                   <p>
                     <FaStar /> Star
-                  </p>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://github.com/mdaliakbor'
-                >
-                  <p>
-                    <FaCodeBranch /> Fork
                   </p>
                 </Link>
               </li>

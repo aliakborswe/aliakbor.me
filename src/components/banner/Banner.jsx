@@ -8,7 +8,7 @@ import "./banner.css";
 const Banner = () => {
   return (
     <div className='banner-area'>
-      <Title title='Follow Me' social height='300px' />
+      <Title title='Follow Me' social height='320px' />
       <Container>
         <div className='banner'>
           <div className='banner-text text-white'>
@@ -16,15 +16,15 @@ const Banner = () => {
             <h1>Ali Akbor</h1>
             <h3>Full Stack Developer</h3>
             <ul>
-              <li>Web Developer</li>
               <li>Programmer</li>
+              <li>Web Developer</li>
               <li>Software Engineer</li>
             </ul>
-            <div className='action flex'>
+            <div className='flex'>
               <Button
-                link='#'
+                link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='__blank'
-                bgColor='#00cf5d'
+                bgColor='#029FDC'
                 title='Get Resume'
               />
               <Button clickEvent link='#about' ml='15px' title='About Me' />

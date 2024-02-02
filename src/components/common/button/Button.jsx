@@ -29,8 +29,6 @@ const Button = ({
       behavior: "smooth",
     });
   };
-
-  console.log(title);
   return (
     <div>
       <Link
@@ -66,7 +64,7 @@ Button.defaultProps = {
   marginRight: 0,
   color: "rgba(255, 255, 255, 0.85)",
   bgColor: "transparent",
-  borderColor: "#00cf5d",
+  borderColor: "#029FDC",
 };
 
 export default Button;

@@ -1,12 +1,36 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./header.css";
 import Container from "../container/Container";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
+import Image from "next/image";
+import logo1 from "@/assets/img/a.png";
 
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);
+
+  const headerScroll = useRef();
+  if (typeof window !== `undefined`) {
+    let prevScrollPosition = window.scrollY;
+    window.addEventListener("scroll", () => {
+      const curScrollPosition = window.scrollY;
+      const difference = prevScrollPosition - curScrollPosition;
+      const { current } = headerScroll;
+      setMobileNav(false);
+      if (curScrollPosition > 100) {
+        current.classList.add("compaq");
+      } else {
+        current.classList.remove("compaq");
+      }
+      if (difference < 0) {
+        current.classList.add("hide");
+      } else {
+        current.classList.remove("hide");
+      }
+      prevScrollPosition = curScrollPosition;
+    });
+  }
 
   const handleScroll = (e) => {
     e.preventDefault();
@@ -23,13 +47,16 @@ const Header = () => {
     }
   };
   return (
-    <header>
+    <header ref={headerScroll} className='compaq'>
       <Container padding='25px 25px'>
         <div className='header'>
           <div className='logo'>
-            <h1>
-              <Link href='/'>Ali-Akbor</Link>
-            </h1>
+            <Image
+              src={logo1}
+              width={60}
+              height={60}
+              alt='Picture of the author'
+            />
           </div>
           <div onClick={() => setMobileNav(!mobileNav)} className='mobile-nav'>
             <FaBars />
@@ -65,6 +92,7 @@ const Header = () => {
                 className='btn-download'
                 target='_blank'
                 rel='noopener noreferrer'
+                // href='https://wa.me/+8801730255696'
                 href='#'
               >
                 Resume
