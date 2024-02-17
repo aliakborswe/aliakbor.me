@@ -20,7 +20,7 @@ const Banner = () => {
               <li>Web Developer</li>
               <li>Software Engineer</li>
             </ul>
-            <div className='flex'>
+            <div className='flex gap-1 justify-center md:justify-start '>
               <Button
                 link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='__blank'

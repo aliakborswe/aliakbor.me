@@ -21,14 +21,20 @@ const About = () => {
               more open to the world. I am available for any kind of job
               opportunity that suits my interests.
             </p>
-            <div className='about-action flex'>
+            <div className='about-action flex gap-1 justify-center md:justify-start '>
               <Button
                 link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='_blank'
                 bgColor='#029FDC'
                 title='Get Resume'
               />
-              <Button clickEvent link='#skill' ml='15px' title='My Skills' />
+              <Button
+                clickEvent
+                link='#skill'
+                ml='15px'
+                title='My Skills'
+                borderColor='#029FDC'
+              />
             </div>
           </div>
           <div className='about-image'>

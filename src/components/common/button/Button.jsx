@@ -30,7 +30,7 @@ const Button = ({
     });
   };
   return (
-    <div>
+    <>
       <Link
         style={{
           marginTop: mt,
@@ -51,7 +51,7 @@ const Button = ({
       >
         {title}
       </Link>
-    </div>
+    </>
   );
 };
 Button.defaultProps = {
