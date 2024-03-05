@@ -5,7 +5,7 @@ import Container from "../container/Container";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
-import logo1 from "@/assets/img/a.png";
+import logo1 from "@/assets/img/fancy.png";
 
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);

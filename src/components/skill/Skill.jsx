@@ -30,7 +30,6 @@ const Skill = () => {
             {selectedSkills.map(({ name, percent }) => (
               <div key={name} className='card'>
                 <h4>{name}</h4>
-                <p>{percent}%</p>
                 <div style={{ width: percent + "%" }} className='progress-ar' />
               </div>
             ))}

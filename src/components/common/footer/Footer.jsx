@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import { FaAngleUp, FaStar, FaCodeBranch } from "react-icons/fa";
+import { FaAngleUp } from "react-icons/fa";
 import "./footer.css";
 import Container from "../container/Container";
 import { languages } from "@/data/languages";
@@ -27,19 +26,6 @@ const Footer = () => {
             </ul>
           </div>
           <div className='copyright'>
-            <ul className='github'>
-              <li>
-                <Link
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href='https://github.com/mdaliakbor'
-                >
-                  <p>
-                    <FaStar /> Star
-                  </p>
-                </Link>
-              </li>
-            </ul>
             <p>
               By Me{" "}
               <span onClick={handleScroll}>
