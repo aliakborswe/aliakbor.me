@@ -13,7 +13,7 @@ const Skill = () => {
   return (
     <div id='skill' className='skill-area'>
       <Container>
-        <Title title='My Skills' />
+        <Title title='My Skills' side='left' height='160px' />
         <div className='skills'>
           <ul className='skill-nav'>
             {skillsName.map((name) => (

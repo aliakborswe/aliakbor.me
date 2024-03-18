@@ -39,7 +39,7 @@ const Portfolio = () => {
             {selectedFeaturedPortfolios.map((portfolio, index) => (
               <div key={index} className='portfolio'>
                 <div className='portfolio-img'>
-                  <Image alt={portfolio.name} src={portfolio.image} />
+                  <Image alt={portfolio.name} src={portfolio.image} priority />
                 </div>
                 <div className='details'>
                   <h4>

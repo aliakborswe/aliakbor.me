@@ -46,8 +46,4 @@ const Title = ({ title, social, side, height }) => {
     </div>
   );
 };
-Title.defaultProps = {
-  side: "left",
-  height: "160px",
-};
 export default Title;

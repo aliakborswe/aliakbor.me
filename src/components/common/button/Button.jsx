@@ -54,17 +54,5 @@ const Button = ({
     </>
   );
 };
-Button.defaultProps = {
-  title: "Button",
-  link: "/",
-  target: "",
-  marginTop: 0,
-  marginBottom: 0,
-  marginLeft: 0,
-  marginRight: 0,
-  color: "rgba(255, 255, 255, 0.85)",
-  bgColor: "transparent",
-  borderColor: "#029FDC",
-};
 
 export default Button;

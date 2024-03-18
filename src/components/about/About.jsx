@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id='about' className='about-area'>
       <Container>
-        <Title side='right' title='About Me' />
+        <Title side='right' title='About Me' height='160px' />
         <div className='about'>
           <div className='about-details'>
             <p>
