@@ -9,7 +9,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor/fa-frontend1",
       tools: ["ReactJs","npm package"],
     },
@@ -22,7 +22,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor/fa-frontend1",
       tools: ["ReactJs","npm package"],
     },
@@ -34,7 +34,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor",
       tools: ["npm package", "react"],
     },
@@ -45,7 +45,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor",
       tools: ["npm package", "react"],
     },
@@ -62,7 +62,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor/fa-frontend1",
       tools: ["ReactJs","npm package"],
     },
@@ -84,7 +84,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor",
       tools: ["NextJs", "ReactJs"],
     },
@@ -95,7 +95,7 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://venerable-mandazi-e1b3c3.netlify.app/",
+      demo: "https://emcalculator.netlify.app/",
       source: "https://github.com/mdaliakbor",
       tools: ["npm package", "react"],
     },
