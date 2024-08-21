@@ -1,0 +1,38 @@
+.love-todo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px;
+    padding-right: 100px;
+}
+
+.love-todo-card {
+    background-color: #1d293a;
+    padding: 45px 25px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.love-todo .love-todo-card h4 {
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    .love-todo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+}
+
+@media only screen and (max-width: 481px) {
+    .love-todo {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 0px;
+    }
+    
+}
