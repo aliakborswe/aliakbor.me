@@ -14,11 +14,11 @@
 }
 
 .title.left {
-    left: 35px;
+    left: 0px;
 }
 
 .title.right {
-    right: 35px;
+    right: 0px;
 }
 
 .title:after {
