@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <Container>
       <div className='banner-area'>
-        <Title title='Follow Me' social height='320px' side='left' />
+      <Title title='Follow Me' social height='320px' side='left' />
         <div className='banner'>
           <div className='banner-text text-white'>
             <p>Hello! I am</p>

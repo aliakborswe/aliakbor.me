@@ -13,8 +13,7 @@ const Footer = () => {
 
   return (
     <footer className='footer-area'>
-      <h1 className="text-7xl font-extrabold">heelllooo footer</h1>
-      <Container padding='50px 25px'>
+      <Container >
         <div className='footer'>
           <div className='language'>
             <ul>
