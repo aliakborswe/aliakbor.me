@@ -9,8 +9,8 @@ import Button from "../common/button/Button";
 
 const About = () => {
   return (
-    <div id='about' className='about-area'>
-      <Container>
+    <Container>
+      <div id='about' className='about-area'>
         <Title side='right' title='About Me' height='160px' />
         <div className='about'>
           <div className='about-details'>
@@ -38,13 +38,13 @@ const About = () => {
             </div>
           </div>
           <div className='about-image'>
-            <div className='image'>
-              <Image alt='profile' src={profile} width={350} height={350} />
+            <div>
+              <Image alt='profile' src={profile} width={350} height={350}/>
             </div>
           </div>
         </div>
-      </Container>
-    </div>
+      </div>
+    </Container>
   );
 };
 

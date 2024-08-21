@@ -48,7 +48,7 @@ const Header = () => {
   };
   return (
     <header ref={headerScroll} className='compaq'>
-      <Container padding='25px 25px'>
+      <Container padding='25px 5px'>
         <div className='header'>
           <div className='logo'>
             <Image

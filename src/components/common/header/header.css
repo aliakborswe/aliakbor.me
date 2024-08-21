@@ -1,6 +1,10 @@
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
+    margin: 0 auto;
     z-index: 10;
     transform: translateY(0);
     transition: 0.5s all;
@@ -39,14 +43,8 @@ header.compaq .container {
 .menubar {
     display: flex;
     align-items: center;
-}
-
-.menubar li {
-    margin: 0 15px;
-}
-
-.menubar li:last-child {
-    margin-right: 0;
+    justify-content: end;
+    gap:35px;
 }
 
 .menubar li a {
