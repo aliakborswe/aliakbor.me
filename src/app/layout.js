@@ -3,7 +3,7 @@ import './globals.css'
 import Header from '@/components/common/header/Header'
 import Footer from '@/components/common/footer/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Ali Akbor',
@@ -18,7 +18,6 @@ const RootLayout = ({ children }) =>{
         <Header/>
         {children}
         <Footer/>
-        
         </body>
     </html>
     </>

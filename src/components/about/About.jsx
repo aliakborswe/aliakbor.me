@@ -21,7 +21,7 @@ const About = () => {
               more open to the world. I am available for any kind of job
               opportunity that suits my interests.
             </p>
-            <div className='about-action flex gap-1 justify-center md:justify-start '>
+            <div className='about-action '>
               <Button
                 link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='_blank'
@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <div className='about-image'>
             <div className='image'>
-              <Image alt='profile' src={profile} />
+              <Image alt='profile' src={profile} width={350} height={350} />
             </div>
           </div>
         </div>
