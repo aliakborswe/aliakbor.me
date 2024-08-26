@@ -76,7 +76,7 @@ const Header = () => {
             </li>
             <li>
               <Link onClick={handleScroll} href='#portfolio'>
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
@@ -94,10 +94,9 @@ const Header = () => {
                 className='btn-download'
                 target='_blank'
                 rel='noopener noreferrer'
-                // href='https://wa.me/+8801730255696'
-                href='https://github.com/aliakborswe/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
+                href='https://wa.me/+8801730255696'
               >
-                Resume
+                hire me
               </Link>
             </li>
           </ul>

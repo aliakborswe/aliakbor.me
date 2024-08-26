@@ -23,7 +23,7 @@ const Contact = () => {
                 mt='25px'
                 bgColor='#15FC08'
                 color='#111A28'
-                link='mailto:aliakbor.js@gmail.com'
+                link='https://wa.me/+8801730255696'
               />
             </div>
           </div>
