@@ -18,45 +18,46 @@
 
 .banner p {
     font-size: 22px;
-    color: #029FDC;
+    color: #15FC08;
 }
 
 .banner h1 {
+    color: #E5DCE9;
     font-size: 78px;
     font-weight: 900;
     margin-bottom: 25px;
 }
 
 .banner h3 {
-    color: #029FDC;
+    color: #15FC08;
+    
 }
 
 .banner ul {
     display: flex;
-
-    margin-bottom: 25px;
+    margin: 5px 0px 25px 15px;
 }
 
 .banner ul li {
     position: relative;
-    margin-right: 25px;
-    color: rgba(255, 255, 255, 0.85);
+    margin-right: 30px;
+    color: #E5DCE9;
 }
 
 .banner ul li:before {
     position: absolute;
     content: "";
     left: -15px;
-    top: 10px;
-    background-color: #029FDC;
-    width: 8px;
-    height: 8px;
+    top: 8px;
+    background-color: #15FC08;
+    width: 10px;
+    height: 10px;
     border-radius: 10px;
 }
 
-.banner ul li:first-child:before {
+/* .banner ul li:first-child:before {
     display: none;
-}
+} */
 
 @media only screen and (max-width: 991px) {
     .banner h1 {

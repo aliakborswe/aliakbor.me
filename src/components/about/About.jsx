@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import profile from "../../assets/img/me.jpg";
+import profile from "../../assets/img/aliakbor.png";
 import "./about.css";
 import Container from "../common/container/Container";
 import Title from "../common/title/Title";
@@ -25,7 +25,8 @@ const About = () => {
               <Button
                 link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='_blank'
-                bgColor='#029FDC'
+                bgColor='#15FC08'
+                color='#111A28'
                 title='Get Resume'
               />
               <Button
@@ -33,7 +34,8 @@ const About = () => {
                 link='#skill'
                 ml='15px'
                 title='My Skills'
-                borderColor='#029FDC'
+                borderColor='#15FC08'
+                color='#E5DCE9'
               />
             </div>
           </div>

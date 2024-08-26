@@ -21,9 +21,9 @@ const Contact = () => {
               <Button
                 title='Contact Me'
                 mt='25px'
-                bgColor='#029FDC'
-                color='#fff'
-                link='mailto:zonayedpca@gmail.com'
+                bgColor='#15FC08'
+                color='#111A28'
+                link='mailto:aliakbor.js@gmail.com'
               />
             </div>
           </div>

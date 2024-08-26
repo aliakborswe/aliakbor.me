@@ -13,8 +13,8 @@
 }
 
 .portfolio-nav li {
-  border: solid 2px #029FDC;
-  color: rgba(255, 255, 255, 0.85);
+  border: solid 2px #15FC08;
+  color: #E5DCE9;
   padding: 5px 25px;
   margin-right: 15px;
   cursor: pointer;
@@ -22,7 +22,8 @@
 }
 
 .portfolio-nav li.active {
-  background-color: #029FDC;
+  background-color: #15FC08;
+  color: #111A28;
   font-weight: 900;
 }
 
@@ -35,7 +36,7 @@
   margin: 15px;
   flex: 1 1 calc(100% / 3 - 30px);
   background-color: #1d293a;
-  color: rgba(255, 255, 255, 0.85);
+  color: #E5DCE9;
   border-radius: 4px;
 }
 
@@ -77,12 +78,12 @@
 }
 
 .portfolio-items .portfolio .links ul li a {
-  color: rgba(255, 255, 255, 0.65);
+  color: #E5DCE9;
   transition: 0.2s all;
 }
 
 .portfolio-items .portfolio .links ul li a:hover {
-  color: #029FDC;
+  color: #15FC08;
 }
 
 .portfolio-items .portfolio-img:after {

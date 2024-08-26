@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-import blogging from "@/assets/images/blogging.png";
-import travelling from "@/assets/images/travelling.png";
-import reading from "@/assets/images/reading.png";
-import photography from "@/assets/images/photography.png";
-import './loveTodo.css'
+import blogging from "@/assets/svg/blogging.svg";
+import traveling from "@/assets/svg/traveling.svg";
+import reading from "@/assets/svg/readingbooks.svg";
+import programming from "@/assets/svg/programming.svg";
+import "./loveTodo.css";
 import Container from "../common/container/Container";
 import Title from "../common/title/Title";
 
@@ -16,19 +16,19 @@ const LoveToDo = () => {
         <Title side='right' title='Love To Do' height='160px' />
         <div className='love-todo'>
           <div className='love-todo-card'>
-            <Image alt='' src={travelling} />
-            <h4>Travelling</h4>
+            <Image alt='' width={80} height={80} src={traveling} />
+            <h4>Traveling</h4>
           </div>
           <div className='love-todo-card'>
-            <Image alt='' src={reading} />
+            <Image alt='' width={80} height={80} src={reading} />
             <h4>Reading</h4>
           </div>
           <div className='love-todo-card'>
-            <Image alt='' src={photography} />
-            <h4>Photography</h4>
+            <Image alt='' width={80} height={80} src={programming} />
+            <h4>Programming</h4>
           </div>
           <div className='love-todo-card'>
-            <Image alt='' src={blogging} />
+            <Image alt='' width={80} height={80} src={blogging} />
             <h4>Blogging</h4>
           </div>
         </div>

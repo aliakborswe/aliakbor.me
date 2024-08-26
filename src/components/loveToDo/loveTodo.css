@@ -24,6 +24,7 @@
 @media only screen and (max-width: 991px) {
     .love-todo {
         grid-template-columns: repeat(2, 1fr);
+        padding-right: 0px;
     }
 
     

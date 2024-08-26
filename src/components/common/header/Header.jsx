@@ -5,7 +5,7 @@ import Container from "../container/Container";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
-import logo1 from "@/assets/img/fancy.png";
+import logo1 from "@/assets/svg/logo.svg";
 
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -51,12 +51,14 @@ const Header = () => {
       <Container padding='25px 15px'>
         <div className='header'>
           <div className='logo'>
-            <Image
-              src={logo1}
-              width={60}
-              height={60}
-              alt='Picture of the author'
-            />
+            <Link href='/'>
+              <Image
+                src={logo1}
+                width={60}
+                height={60}
+                alt='Picture of the author'
+              />
+            </Link>
           </div>
           <div onClick={() => setMobileNav(!mobileNav)} className='mobile-nav'>
             <FaBars />
@@ -93,7 +95,7 @@ const Header = () => {
                 target='_blank'
                 rel='noopener noreferrer'
                 // href='https://wa.me/+8801730255696'
-                href='#'
+                href='https://github.com/aliakborswe/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
               >
                 Resume
               </Link>

@@ -9,9 +9,9 @@ const Banner = () => {
   return (
     <Container>
       <div className='banner-area'>
-      <Title title='Follow Me' social height='320px' side='left' />
+        <Title title='Follow Me' social height='320px' side='left' />
         <div className='banner'>
-          <div className='banner-text text-white'>
+          <div>
             <p>Hello! I am</p>
             <h1>Ali Akbor</h1>
             <h3>Full Stack Developer</h3>
@@ -20,14 +20,24 @@ const Banner = () => {
               <li>Web Developer</li>
               <li>Software Engineer</li>
             </ul>
-            <div className='flex gap-1 justify-center md:justify-start '>
+            <div>
               <Button
-                link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
+                download={true}
+                link='https://github.com/aliakborswe/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
                 target='__blank'
-                bgColor='#029FDC'
+                bgColor='#15FC08'
+                color='#111A28'
                 title='Get Resume'
               />
-              <Button clickEvent link='#about' ml='15px' title='About Me' />
+              <Button
+                clickEvent
+                link='#about'
+                ml='15px'
+                borderColor='#15FC08'
+                color='#E5DCE9'
+                hover='background:red'
+                title='About Me'
+              />
             </div>
           </div>
         </div>

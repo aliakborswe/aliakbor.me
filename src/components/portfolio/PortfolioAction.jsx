@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Button from "../common/button/Button";
+import "./portfolio.css";
 
 const PortfolioAction = () => {
   let showMoreTimeOut;
@@ -25,7 +26,7 @@ const PortfolioAction = () => {
     setTimeout(() => {}, 1000);
   };
   return (
-    <div className='text-center'>
+    <div style={{ "textAlign": "center"}}>
       <Button
         target='__blank'
         link='https://github.com/mdaliakbor'
@@ -34,6 +35,8 @@ const PortfolioAction = () => {
         onClick={handleClick}
         title={title}
         mt='15px'
+        borderColor='#15FC08'
+        color='#E5DCE9'
       />
     </div>
   );
