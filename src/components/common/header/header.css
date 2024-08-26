@@ -55,10 +55,12 @@ header.compaq .container {
     text-decoration: none;
 }
 
-.menubar li a.btn-download {
+.menubar li .btn-download {
+    width: 100px;
+    text-align: center;
     display: inline-block;
     border: solid 2px #15FC08;
-    padding: 5px 15px;
+    padding: 5px 0px;
     border-radius: 4px;
 }
 
