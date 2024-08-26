@@ -26,6 +26,13 @@
   align-items: center;
   justify-content: center;
 }
+.about-image .image{
+  border-radius: 10px;
+  transition-duration: 2s;
+}
+.about-image:hover .image{
+  transform: scale(1.1);
+}
 
 
 

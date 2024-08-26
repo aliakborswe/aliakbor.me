@@ -41,7 +41,13 @@ const About = () => {
           </div>
           <div className='about-image'>
             <div>
-              <Image alt='profile' src={profile} width={350} height={350} />
+              <Image
+              className='image'
+              alt='profile image'
+              src={profile}
+              width={350}
+              height={350}
+            />
             </div>
           </div>
         </div>
