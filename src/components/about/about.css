@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap:20px;
+  margin-right: 100px;
 }
 
 .about > * {
@@ -39,7 +40,7 @@
 @media only screen and (max-width: 768px) {
   .about {
     text-align: center;
-    padding-right: 0;
+    margin-right: 0px;
     flex-direction: column-reverse;
   }
 
