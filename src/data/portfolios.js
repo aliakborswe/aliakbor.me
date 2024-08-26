@@ -9,8 +9,25 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor/fa-frontend1",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
+      serverLink:"https://github.com/mdaliakbor/",
+      tools: [
+        "ReactJs",
+        "npm package",
+      ],
+    },
+    {
+      type: "featured",
+      name: "EmCalculator",
+      image: require("../assets/emcalculator.png"),
+      description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
+          History Tracking: Logs previous calculations for easy reference.
+          Restoration: Users can restore past calculations with a single click.
+          Clear Function: Easily reset the current operation for new calculations.`,
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -21,8 +38,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor/fa-frontend1",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -33,23 +51,11 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor/fa-frontend1",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["ReactJs", "npm package"],
     },
-    {
-      type: "featured",
-      name: "EmCalculator",
-      image: require("../assets/emcalculator.png"),
-      description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
-          History Tracking: Logs previous calculations for easy reference.
-          Restoration: Users can restore past calculations with a single click.
-          Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor/fa-frontend1",
-      tools: ["ReactJs", "npm package"],
-    },
-
 
     // regular
     {
@@ -59,8 +65,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["npm package", "react"],
     },
     {
@@ -70,8 +77,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["npm package", "react"],
     },
   ],
@@ -85,8 +93,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor/fa-frontend1",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -94,9 +103,10 @@ export const portfolios = {
       name: "Profile Cart",
       image: require("../assets/profilecart.png"),
       description:
-        "A stunning profile card to show your picture and social media accounts with smooth animation effect on Open/Close. It helps you have all your social media accounts in one place. It comes with clean code and unique class names starts with (pCard_) to distinguish between your classes. Watch the live demo to see it in action.",
-      demo: "#",
-      source: "#",
+        "A stunning profile card to show your picture and social media accounts with smooth animation effect on Open/Close. It helps you have all your social media accounts in one place. It comes with clean code and unique class names starts with (pCard_) to distinguish between your classes. Watch the live liveLink to see it in action.",
+      liveLink: "#",
+      clientLink: "#",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["ReactJs", "Tailwind CSS"],
     },
     {
@@ -106,8 +116,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["NextJs", "ReactJs"],
     },
     {
@@ -117,8 +128,9 @@ export const portfolios = {
           History Tracking: Logs previous calculations for easy reference.
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
-      demo: "https://emcalculator.netlify.app/",
-      source: "https://github.com/mdaliakbor",
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/mdaliakbor",
+      serverLink:"https://github.com/mdaliakbor/",
       tools: ["npm package", "react"],
     },
   ],
