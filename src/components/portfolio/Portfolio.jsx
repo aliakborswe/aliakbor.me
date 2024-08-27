@@ -24,8 +24,8 @@ const Portfolio = () => {
     (portfolio) => portfolio.type === "regular"
   );
 
-  const handleToggle = (index) => {
-    setIsToggled((prevState) => ({ ...prevState, [index]: !prevState[index] }));
+  const handleToggle = (id) => {
+    setIsToggled((prevState) => ({ ...prevState, [id]: !prevState[id] }));
   };
 
   return (
@@ -50,8 +50,8 @@ const Portfolio = () => {
           </ul>
           {/* portfolio card */}
           <div className='portfolio-container'>
-            {selectedFeaturedPortfolios.map((portfolio, index) => (
-              <div key={index} className='portfolio'>
+            {selectedFeaturedPortfolios.map((portfolio) => (
+              <div key={portfolio.id} className='portfolio'>
                 {/* portfolio image */}
                 <div className='portfolio-img'>
                   <Image
@@ -66,13 +66,13 @@ const Portfolio = () => {
                 <h4 className='prt-name'>{portfolio.name}</h4>
                 <div className='details'>
                   <h4
-                    onClick={() => handleToggle(index)}
+                    onClick={() => handleToggle(portfolio.id)}
                     className={`${
-                      isToggled[index] ? "btn-default" : "btn-green"
+                      isToggled[portfolio.id] ? "btn-default" : "btn-green"
                     }`}
                   >
                     Project Details{" "}
-                    {isToggled[index] ? (
+                    {isToggled[portfolio.id] ? (
                       <Image
                         src={downarrow}
                         alt='done'
@@ -85,7 +85,7 @@ const Portfolio = () => {
                   </h4>
 
                   {/* Description */}
-                  {isToggled[index] && (
+                  {isToggled[portfolio.id] && (
                     <div className='description-container'>
                       <span className='description-title'>Description:</span>
                       <span>{portfolio.description}</span>
@@ -158,18 +158,18 @@ const Portfolio = () => {
 
           {/* portfolio card without image */}
           <div className='portfolio-container withoutImg'>
-            {selectedPortfolios.map((portfolio, index) => (
-              <div key={index} className='portfolio'>
+            {selectedPortfolios.map((portfolio) => (
+              <div key={portfolio.id} className='portfolio'>
                 <h4 className='prt-name'>{portfolio.name}</h4>
                 <div className='details'>
                   <h4
-                    onClick={() => handleToggle(index)}
+                    onClick={() => handleToggle(portfolio.id)}
                     className={`${
-                      isToggled[index] ? "btn-default" : "btn-green"
+                      isToggled[portfolio.id] ? "btn-default" : "btn-green"
                     }`}
                   >
                     Project Details{" "}
-                    {isToggled[index] ? (
+                    {isToggled[portfolio.id] ? (
                       <Image
                         src={downarrow}
                         alt='done'
@@ -182,7 +182,7 @@ const Portfolio = () => {
                   </h4>
 
                   {/* Description */}
-                  {isToggled[index] && (
+                  {isToggled[portfolio.id] && (
                     <div className='description-container'>
                       <span className='description-title'>Description:</span>
                       <span>{portfolio.description}</span>
