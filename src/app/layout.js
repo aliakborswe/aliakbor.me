@@ -13,15 +13,17 @@ export const metadata = {
 const RootLayout = ({ children }) =>{
   return (
     <>
-    <html lang="en">
-      <body suppressHydrationWarning={true}>
-        <Header/>
-        {children}
-        <Footer/>
+      <html lang='en'>
+        <head>
+          <link rel='icon' href='/file/favicon.svg' sizes='any' />
+        </head>
+        <body suppressHydrationWarning={true}>
+          <Header />
+          {children}
+          <Footer />
         </body>
-    </html>
+      </html>
     </>
-    
-  )
+  );
 }
 export default RootLayout;
