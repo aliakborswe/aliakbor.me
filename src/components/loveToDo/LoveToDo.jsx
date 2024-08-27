@@ -16,16 +16,16 @@ const LoveToDo = () => {
         <Title side='right' title='Love To Do' height='160px' />
         <div className='love-todo'>
           <div className='love-todo-card'>
-            <Image alt='' width={80} height={80} src={traveling} />
-            <h4>Traveling</h4>
-          </div>
-          <div className='love-todo-card'>
             <Image alt='' width={80} height={80} src={reading} />
             <h4>Reading</h4>
           </div>
           <div className='love-todo-card'>
+            <Image alt='' width={80} height={80} src={traveling} />
+            <h4>Traveling</h4>
+          </div>
+          <div className='love-todo-card'>
             <Image alt='' width={80} height={80} src={programming} />
-            <h4>Programming</h4>
+            <h4>Problem Solving</h4>
           </div>
           <div className='love-todo-card'>
             <Image alt='' width={80} height={80} src={blogging} />

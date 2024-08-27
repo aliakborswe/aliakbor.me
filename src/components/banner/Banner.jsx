@@ -14,11 +14,13 @@ const Banner = () => {
           <div>
             <p>Hello! I am</p>
             <h1>Ali Akbor</h1>
-            <h3>Full Stack Developer</h3>
+            <h3>MERN Stack Developer</h3>
+            {/* <h3>Software Engineer</h3> */}
             <ul>
               <li>Programmer</li>
+              {/* <li>Backend Developer</li> */}
               <li>Web Developer</li>
-              <li>Software Engineer</li>
+              <li>Frontend Developer</li>
             </ul>
             <div>
               <Button

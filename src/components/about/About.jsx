@@ -15,10 +15,10 @@ const About = () => {
         <div className='about'>
           <div className='about-details'>
             <p>
-              Hello! I am Ali Akbor, a passionate software engineer. I develop
-              web applications. My core skill is based on JavaScript and I love
-              to do most of the things using JavaScript. I love to make the web
-              more open to the world. I am available for any kind of job
+              Hello! I am Ali Akbor, a passionate MERN Stack developer. I
+              develop web applications. My core skill is based on JavaScript and
+              I love to do most of the things using JavaScript. I love to make
+              the web more open to the world. I am available for any kind of job
               opportunity that suits my interests.
             </p>
             <div className='about-action '>
@@ -42,12 +42,12 @@ const About = () => {
           <div className='about-image'>
             <div>
               <Image
-              className='image'
-              alt='profile image'
-              src={profile}
-              width={350}
-              height={350}
-            />
+                className='image'
+                alt='profile image'
+                src={profile}
+                width={350}
+                height={350}
+              />
             </div>
           </div>
         </div>
