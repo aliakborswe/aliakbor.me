@@ -22,8 +22,8 @@ const Banner = () => {
             </ul>
             <div>
               <Button
-                download={true}
-                link='https://github.com/aliakborswe/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
+                download='MyResume.pdf'
+                link='./file/MyResume.pdf'
                 target='__blank'
                 bgColor='#15FC08'
                 color='#111A28'

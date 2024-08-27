@@ -7,6 +7,7 @@ const Button = ({
   title,
   link,
   target,
+  download,
   clickEvent,
   onMouseOver,
   onMouseOut,
@@ -40,7 +41,7 @@ const Button = ({
           color,
           borderColor,
           backgroundColor: bgColor,
-          fontWeight: "bold"
+          fontWeight: "bold",
         }}
         target={target}
         onClick={clickEvent && handleClick}
@@ -48,7 +49,7 @@ const Button = ({
         onMouseOut={onMouseOut}
         rel={target ? "noopener noreferrer" : ""}
         className='btn'
-        download
+        download={download}
         href={link}
       >
         {title}

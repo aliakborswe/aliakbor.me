@@ -11,13 +11,13 @@ const PortfolioAction = () => {
     clearTimeout(moreTimeOut);
     showMoreTimeOut = setTimeout(() => {
       setTitle("Show More");
-    }, 1000);
+    }, 100);
   };
   const handleOnMouseOut = () => {
     clearTimeout(showMoreTimeOut);
     moreTimeOut = setTimeout(() => {
       setTitle("More");
-    }, 2000);
+    }, 1000);
   };
   const handleClick = (e) => {
     e.preventDefault();
@@ -26,10 +26,10 @@ const PortfolioAction = () => {
     setTimeout(() => {}, 1000);
   };
   return (
-    <div style={{ "textAlign": "center"}}>
+    <div style={{ textAlign: "center" }}>
       <Button
         target='__blank'
-        link='https://github.com/mdaliakbor'
+        link='https://github.com/aliakborswe'
         onMouseOver={handleMouseOver}
         onMouseOut={handleOnMouseOut}
         onClick={handleClick}
