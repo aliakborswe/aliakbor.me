@@ -80,6 +80,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link onClick={handleScroll} href='#services'>
+                Services
+              </Link>
+            </li>
+            <li>
               <Link onClick={handleScroll} href='#contact'>
                 Contact
               </Link>

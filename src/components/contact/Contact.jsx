@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact-area'>
       <Container>
-        <Title side='right' title='Contact' height='160px' />
+        <Title side='left' title='Contact' height='160px' />
         <div className='contact'>
           <div className='contact-status'>
             <p>
