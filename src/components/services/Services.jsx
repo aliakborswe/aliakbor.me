@@ -37,7 +37,7 @@ const Services = () => {
             <Image src={backenddevelopment} width={80} height={80} alt='' />
             <h4>Backend Development</h4>
             <p>
-              I'm a backend developer with expertise in Node.js, Express, and
+              I am a backend developer with expertise in Node.js, Express, and
               MongoDB, focusing on building robust, scalable, and secure
               server-side applications to power your web projects.
             </p>
