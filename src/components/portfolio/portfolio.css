@@ -72,8 +72,6 @@
   border-radius:4px;
 }
 .details > h4{
-  background-color: #111A28;
-  color: #E5DCE9;
   padding: 15px;
   border-radius: 5px 5px 0px 0px;
   cursor: pointer;
@@ -82,11 +80,20 @@
   justify-content: space-between;
   align-items: center;
 }
+.btn-default{
+  background-color: #111A28;
+  color: #E5DCE9;
+}
+.btn-green {
+  background-color: #15FC08;
+  color: #111A28;
+}
 .description-container{
   padding: 15px;
   color: #FFFFFF;
-  
 }
+
+
 .description-title{
   font-size: 20px;
   font-weight: 400;

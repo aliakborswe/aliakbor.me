@@ -13,7 +13,8 @@ import downarrow from "@/assets/svg/downarrow.svg";
 import Link from "next/link";
 
 const Portfolio = () => {
-  const [toggle, setToggle] = useState(false);
+  const [isToggled, setIsToggled] = useState({});
+
   const portfoliosName = Object.keys(portfolios);
   const [selectedPortfolio, setSelectedPortfolio] = useState(portfoliosName[0]);
   const selectedFeaturedPortfolios = portfolios[selectedPortfolio].filter(
@@ -22,6 +23,11 @@ const Portfolio = () => {
   const selectedPortfolios = portfolios[selectedPortfolio].filter(
     (portfolio) => portfolio.type === "regular"
   );
+
+  const handleToggle = (index) => {
+    setIsToggled((prevState) => ({ ...prevState, [index]: !prevState[index] }));
+  };
+
   return (
     <div id='portfolio' className='portfolio-area'>
       <Container>
@@ -59,80 +65,92 @@ const Portfolio = () => {
                 {/*portfolio details */}
                 <h4 className='prt-name'>{portfolio.name}</h4>
                 <div className='details'>
-                  <h4>
+                  <h4
+                    onClick={() => handleToggle(index)}
+                    className={`${
+                      isToggled[index] ? "btn-default" : "btn-green"
+                    }`}
+                  >
                     Project Details{" "}
-                    {toggle ? (
-                      <Image src={uparrow} alt='done' width={25} height={25} />
-                    ) : (
+                    {isToggled[index] ? (
                       <Image
                         src={downarrow}
                         alt='done'
                         width={25}
                         height={25}
                       />
+                    ) : (
+                      <Image src={uparrow} alt='done' width={25} height={25} />
                     )}
                   </h4>
 
                   {/* Description */}
-                  <div className='description-container'>
-                    <span className='description-title'>Description:</span>
-                    <span>{portfolio.description}</span>
+                  {isToggled[index] && (
+                    <div className='description-container'>
+                      <span className='description-title'>Description:</span>
+                      <span>{portfolio.description}</span>
 
-                    {/* key features */}
-                    <ul className='portfolio-features'>
-                      <p className='description-title'>Features:</p>
-                      {portfolio.tools.map((tool) => (
-                        <li key={tool}>
-                          <Image src={done} alt='done' width={15} height={15} />
-                          {tool}
-                        </li>
-                      ))}
-                    </ul>
+                      {/* key features */}
+                      <ul className='portfolio-features'>
+                        <p className='description-title'>Features:</p>
+                        {portfolio.tools.map((tool) => (
+                          <li key={tool}>
+                            <Image
+                              src={done}
+                              alt='done'
+                              width={15}
+                              height={15}
+                            />
+                            {tool}
+                          </li>
+                        ))}
+                      </ul>
 
-                    {/* portfolio-tools */}
-                    <ul className='portfolio-tools'>
-                      <span className='description-title'>Technologies:</span>
-                      {portfolio.tools.map((tool) => (
-                        <span className='tools' key={tool}>
-                          {tool}
-                        </span>
-                      ))}
-                    </ul>
+                      {/* portfolio-tools */}
+                      <ul className='portfolio-tools'>
+                        <span className='description-title'>Technologies:</span>
+                        {portfolio.tools.map((tool) => (
+                          <span className='tools' key={tool}>
+                            {tool}
+                          </span>
+                        ))}
+                      </ul>
 
-                    {/* Portfolio Link */}
-                    <ul className='portfolio-link'>
-                      {portfolio.liveLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.liveLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Live Site</li>
-                        </Link>
-                      )}
-                      {portfolio.serverLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.serverLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Server Side</li>
-                        </Link>
-                      )}
-                      {portfolio.clientLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.clientLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Client</li>
-                        </Link>
-                      )}
-                    </ul>
-                  </div>
+                      {/* Portfolio Link */}
+                      <ul className='portfolio-link'>
+                        {portfolio.liveLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.liveLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Live Site</li>
+                          </Link>
+                        )}
+                        {portfolio.serverLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.serverLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Server Side</li>
+                          </Link>
+                        )}
+                        {portfolio.clientLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.clientLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Client</li>
+                          </Link>
+                        )}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -144,80 +162,92 @@ const Portfolio = () => {
               <div key={index} className='portfolio'>
                 <h4 className='prt-name'>{portfolio.name}</h4>
                 <div className='details'>
-                  <h4>
+                  <h4
+                    onClick={() => handleToggle(index)}
+                    className={`${
+                      isToggled[index] ? "btn-default" : "btn-green"
+                    }`}
+                  >
                     Project Details{" "}
-                    {toggle ? (
-                      <Image src={uparrow} alt='done' width={25} height={25} />
-                    ) : (
+                    {isToggled[index] ? (
                       <Image
                         src={downarrow}
                         alt='done'
                         width={25}
                         height={25}
                       />
+                    ) : (
+                      <Image src={uparrow} alt='done' width={25} height={25} />
                     )}
                   </h4>
 
                   {/* Description */}
-                  <div className='description-container'>
-                    <span className='description-title'>Description:</span>
-                    <span>{portfolio.description}</span>
+                  {isToggled[index] && (
+                    <div className='description-container'>
+                      <span className='description-title'>Description:</span>
+                      <span>{portfolio.description}</span>
 
-                    {/* key features */}
-                    <ul className='portfolio-features'>
-                      <p className='description-title'>Features:</p>
-                      {portfolio.tools.map((tool) => (
-                        <li key={tool}>
-                          <Image src={done} alt='done' width={15} height={15} />
-                          {tool}
-                        </li>
-                      ))}
-                    </ul>
+                      {/* key features */}
+                      <ul className='portfolio-features'>
+                        <p className='description-title'>Features:</p>
+                        {portfolio.tools.map((tool) => (
+                          <li key={tool}>
+                            <Image
+                              src={done}
+                              alt='done'
+                              width={15}
+                              height={15}
+                            />
+                            {tool}
+                          </li>
+                        ))}
+                      </ul>
 
-                    {/* portfolio-tools */}
-                    <ul className='portfolio-tools'>
-                      <span className='description-title'>Technologies:</span>
-                      {portfolio.tools.map((tool) => (
-                        <span className='tools' key={tool}>
-                          {tool}
-                        </span>
-                      ))}
-                    </ul>
+                      {/* portfolio-tools */}
+                      <ul className='portfolio-tools'>
+                        <span className='description-title'>Technologies:</span>
+                        {portfolio.tools.map((tool) => (
+                          <span className='tools' key={tool}>
+                            {tool}
+                          </span>
+                        ))}
+                      </ul>
 
-                    {/* Portfolio Link */}
-                    <ul className='portfolio-link'>
-                      {portfolio.liveLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.liveLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Live Site</li>
-                        </Link>
-                      )}
-                      {portfolio.serverLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.serverLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Server Side</li>
-                        </Link>
-                      )}
-                      {portfolio.clientLink && (
-                        <Link
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          href={portfolio.clientLink}
-                          style={{ textDecoration: "none" }}
-                        >
-                          <li>Client</li>
-                        </Link>
-                      )}
-                    </ul>
-                  </div>
+                      {/* Portfolio Link */}
+                      <ul className='portfolio-link'>
+                        {portfolio.liveLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.liveLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Live Site</li>
+                          </Link>
+                        )}
+                        {portfolio.serverLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.serverLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Server Side</li>
+                          </Link>
+                        )}
+                        {portfolio.clientLink && (
+                          <Link
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            href={portfolio.clientLink}
+                            style={{ textDecoration: "none" }}
+                          >
+                            <li>Client</li>
+                          </Link>
+                        )}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
