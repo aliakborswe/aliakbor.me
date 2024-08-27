@@ -1,0 +1,44 @@
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-right: 100px;
+}
+
+.service {
+    background-color: #1d293a;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 4px;
+}
+
+.service h4 {
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    .services-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .services-container {
+        padding-right: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 0px;
+    }
+
+}
