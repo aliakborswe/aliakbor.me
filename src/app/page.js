@@ -5,17 +5,16 @@ import LoveToDo from "@/components/loveToDo/LoveToDo";
 import Portfolio from "@/components/portfolio/Portfolio";
 import Skill from "@/components/skill/Skill";
 
-
-const Home=() =>{
+const Home = () => {
   return (
     <>
-    <Banner/>
-    <About/>
-    <Skill/>
-    <LoveToDo/>
-    <Portfolio/>
-    <Contact/>
+      <Banner />
+      <About />
+      <Skill />
+      <LoveToDo />
+      <Portfolio />
+      <Contact />
     </>
-  )
-}
+  );
+};
 export default Home;
