@@ -36,9 +36,9 @@ const Contact = () => {
                 </p>
               </li>
               <li>
-                <h5>Skype</h5>
+                <h5>Phone</h5>
                 <p>
-                  aliakbor <span>(Always Available)</span>
+                  +8801730255696 <span>(Always Available)</span>
                 </p>
               </li>
               <li>
