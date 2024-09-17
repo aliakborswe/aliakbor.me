@@ -51,7 +51,8 @@
 
 .portfolio-img .image{
   width: 100%;
-  transition-duration: 1s;
+  height: auto;
+  transition-duration: 20s;
 }
 .portfolio-img:hover .image{
   transform: translateY(calc( -100% + 300px));

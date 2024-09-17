@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 import { portfolios } from "@/data";
 import "./portfolio.css";
@@ -57,9 +56,8 @@ const Portfolio = () => {
                   <Image
                     alt={portfolio.name}
                     src={portfolio.image}
+                    quality={100}
                     className='image'
-                    objectFit='contain'
-                    priority
                   />
                 </div>
                 {/*portfolio details */}
