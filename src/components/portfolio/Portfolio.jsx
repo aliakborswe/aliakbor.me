@@ -99,6 +99,7 @@ const Portfolio = () => {
                               alt='done'
                               width={15}
                               height={15}
+                              className='feature-icon'
                             />
                             {item}
                           </li>
@@ -196,6 +197,7 @@ const Portfolio = () => {
                               alt='done'
                               width={15}
                               height={15}
+                              className='feature-icon'
                             />
                             {item}
                           </li>

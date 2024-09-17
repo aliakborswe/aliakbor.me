@@ -104,11 +104,16 @@
 
 .portfolio-features {
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
 .portfolio-features li{
   display: flex;
-  align-items: center;
-  gap:4px;
+  gap:5px;
+}
+.portfolio-features .feature-icon{
+  margin-top: 6px;
 }
 .portfolio-tools{
   padding: 15px 0px;;
