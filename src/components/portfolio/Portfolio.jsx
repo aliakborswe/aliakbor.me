@@ -47,7 +47,7 @@ const Portfolio = () => {
               </li>
             ))}
           </ul>
-          {/* portfolio card */}
+          {/* portfolio card with image*/}
           <div className='portfolio-container'>
             {selectedFeaturedPortfolios.map((portfolio) => (
               <div key={portfolio.id} className='portfolio'>
@@ -57,6 +57,7 @@ const Portfolio = () => {
                     alt={portfolio.name}
                     src={portfolio.image}
                     quality={100}
+                    priority
                     className='image'
                   />
                 </div>
@@ -91,15 +92,15 @@ const Portfolio = () => {
                       {/* key features */}
                       <ul className='portfolio-features'>
                         <p className='description-title'>Features:</p>
-                        {portfolio.tools.map((tool) => (
-                          <li key={portfolio.id}>
+                        {portfolio.features.map((item, i) => (
+                          <li key={i}>
                             <Image
                               src={done}
                               alt='done'
                               width={15}
                               height={15}
                             />
-                            {tool}
+                            {item}
                           </li>
                         ))}
                       </ul>
@@ -107,8 +108,8 @@ const Portfolio = () => {
                       {/* portfolio-tools */}
                       <ul className='portfolio-tools'>
                         <span className='description-title'>Technologies:</span>
-                        {portfolio.tools.map((tool) => (
-                          <span className='tools' key={portfolio.id}>
+                        {portfolio.tools.map((tool, i) => (
+                          <span className='tools' key={i}>
                             {tool}
                           </span>
                         ))}
@@ -188,15 +189,15 @@ const Portfolio = () => {
                       {/* key features */}
                       <ul className='portfolio-features'>
                         <p className='description-title'>Features:</p>
-                        {portfolio.tools.map((tool) => (
-                          <li key={portfolio.id}>
+                        {portfolio.features.map((item, i) => (
+                          <li key={i}>
                             <Image
                               src={done}
                               alt='done'
                               width={15}
                               height={15}
                             />
-                            {tool}
+                            {item}
                           </li>
                         ))}
                       </ul>
@@ -204,8 +205,8 @@ const Portfolio = () => {
                       {/* portfolio-tools */}
                       <ul className='portfolio-tools'>
                         <span className='description-title'>Technologies:</span>
-                        {portfolio.tools.map((tool) => (
-                          <span className='tools' key={portfolio.id}>
+                        {portfolio.tools.map((tool, i) => (
+                          <span className='tools' key={i}>
                             {tool}
                           </span>
                         ))}

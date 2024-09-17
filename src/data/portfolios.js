@@ -11,8 +11,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe/fa-frontend1",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "npm package"],
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -25,8 +26,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe/fa-frontend1",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "npm package"],
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -39,8 +41,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe/fa-frontend1",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "npm package"],
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -53,38 +56,41 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe/fa-frontend1",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "npm package"],
       tools: ["ReactJs", "npm package"],
     },
 
-    // // regular
-    // {
-    //   id: "5",
-    //   type: "regular",
-    //   name: "EmCalculator",
-    //   description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
-    //       History Tracking: Logs previous calculations for easy reference.
-    //       Restoration: Users can restore past calculations with a single click.
-    //       Clear Function: Easily reset the current operation for new calculations.`,
-    //   liveLink: "https://emcalculator.netlify.app/",
-    //   clientLink: "https://github.com/mdaliakbor",
-    //   serverLink: "https://github.com/mdaliakbor/",
-    //   tools: ["npm package", "react"],
-    // },
-    // {
-    //   id: "6",
-    //   type: "regular",
-    //   name: "EmCalculator",
-    //   description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
-    //       History Tracking: Logs previous calculations for easy reference.
-    //       Restoration: Users can restore past calculations with a single click.
-    //       Clear Function: Easily reset the current operation for new calculations.`,
-    //   liveLink: "https://emcalculator.netlify.app/",
-    //   clientLink: "https://github.com/mdaliakbor",
-    //   serverLink: "https://github.com/mdaliakbor/",
-    //   tools: ["npm package", "react"],
-    // },
+    // regular
+    {
+      id: "5",
+      type: "regular",
+      name: "EmCalculator",
+      description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
+          History Tracking: Logs previous calculations for easy reference.
+          Restoration: Users can restore past calculations with a single click.
+          Clear Function: Easily reset the current operation for new calculations.`,
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/aliakborswe",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["ackage", "react"],
+      tools: ["npm package", "react"],
+    },
+    {
+      id: "6",
+      type: "regular",
+      name: "EmCalculator",
+      description: `EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface. Key features include:Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.
+          History Tracking: Logs previous calculations for easy reference.
+          Restoration: Users can restore past calculations with a single click.
+          Clear Function: Easily reset the current operation for new calculations.`,
+      liveLink: "https://emcalculator.netlify.app/",
+      clientLink: "https://github.com/aliakborswe",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["package", "react"],
+      tools: ["npm package", "react"],
+    },
   ],
 
   Others: [
@@ -98,8 +104,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor/fa-frontend1",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe/fa-frontend1",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "npm package"],
       tools: ["ReactJs", "npm package"],
     },
     {
@@ -111,7 +118,8 @@ export const portfolios = {
         "A stunning profile card to show your picture and social media accounts with smooth animation effect on Open/Close. It helps you have all your social media accounts in one place. It comes with clean code and unique class names starts with (pCard_) to distinguish between your classes. Watch the live liveLink to see it in action.",
       liveLink: "#",
       clientLink: "#",
-      serverLink: "https://github.com/mdaliakbor/",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["tJs", "Tailwind CSS"],
       tools: ["ReactJs", "Tailwind CSS"],
     },
     {
@@ -123,8 +131,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["Js", "ReactJs"],
       tools: ["NextJs", "ReactJs"],
     },
     {
@@ -136,8 +145,9 @@ export const portfolios = {
           Restoration: Users can restore past calculations with a single click.
           Clear Function: Easily reset the current operation for new calculations.`,
       liveLink: "https://emcalculator.netlify.app/",
-      clientLink: "https://github.com/mdaliakbor",
-      serverLink: "https://github.com/mdaliakbor/",
+      clientLink: "https://github.com/aliakborswe",
+      serverLink: "https://github.com/aliakborswe/",
+      features: ["package", "react"],
       tools: ["npm package", "react"],
     },
   ],

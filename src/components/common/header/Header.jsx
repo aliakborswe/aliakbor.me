@@ -54,8 +54,7 @@ const Header = () => {
             <Link href='/'>
               <Image
                 src={logo1}
-                width={60}
-                height={60}
+                width={45}
                 alt='Picture of the author'
               />
             </Link>
