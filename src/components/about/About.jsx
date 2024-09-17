@@ -40,13 +40,13 @@ const About = () => {
             </div>
           </div>
           <div className='about-image'>
-            <div>
+            <div className='img_container'>
               <Image
                 className='image'
                 alt='profile image'
                 src={profile}
-                width={350}
-                height={350}
+                quality={100}
+                width={400}
               />
             </div>
           </div>
