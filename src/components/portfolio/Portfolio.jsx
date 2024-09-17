@@ -92,7 +92,7 @@ const Portfolio = () => {
                       <ul className='portfolio-features'>
                         <p className='description-title'>Features:</p>
                         {portfolio.tools.map((tool) => (
-                          <li key={tool}>
+                          <li key={portfolio.id}>
                             <Image
                               src={done}
                               alt='done'
@@ -108,7 +108,7 @@ const Portfolio = () => {
                       <ul className='portfolio-tools'>
                         <span className='description-title'>Technologies:</span>
                         {portfolio.tools.map((tool) => (
-                          <span className='tools' key={tool}>
+                          <span className='tools' key={portfolio.id}>
                             {tool}
                           </span>
                         ))}
@@ -189,7 +189,7 @@ const Portfolio = () => {
                       <ul className='portfolio-features'>
                         <p className='description-title'>Features:</p>
                         {portfolio.tools.map((tool) => (
-                          <li key={tool}>
+                          <li key={portfolio.id}>
                             <Image
                               src={done}
                               alt='done'
@@ -205,7 +205,7 @@ const Portfolio = () => {
                       <ul className='portfolio-tools'>
                         <span className='description-title'>Technologies:</span>
                         {portfolio.tools.map((tool) => (
-                          <span className='tools' key={tool}>
+                          <span className='tools' key={portfolio.id}>
                             {tool}
                           </span>
                         ))}
