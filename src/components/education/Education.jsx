@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <Container>
       <Title title='Education' height='220px' side='left' />
-      <div className='flex flex-col lg:flex-row justify-between items-center gap-8  md:ml-20'>
+      <div className='flex flex-col lg:flex-row justify-between items-center gap-8  md:ml-20 pb-10'>
         {/* bsc */}
         <div className='space-y-2 border-l-2 border-[#15FC08] pl-4'>
           <h3 className='text-xl font-bold text-[#15FC08]'>

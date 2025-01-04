@@ -11,13 +11,13 @@ const Contact = () => {
     <div id='contact' className='contact-area'>
       <Container>
         <Title side='left' title='Contact' height='160px' />
-        <div className='flex flex-col sm:flex-row items-center justify-between gap-8 ml-10'>
+        <div className='flex flex-col sm:flex-row  justify-between gap-8 ml-10'>
           <div className='w-1/2'>
             <SentEmail />
           </div>
           <div className='w-1/2'>
             <div className='contact-details'>
-              <p>
+              <p className='pb-10'>
                 I am interested in working with any company that thinks my skill
                 will be helpful for them. If you are looking for someone like
                 me, please let me know.
@@ -26,7 +26,7 @@ const Contact = () => {
                 <li>
                   <h5>Email</h5>
                   <p>
-                    aliakbor.js@gmail.com <span>(Recommended)</span>
+                    aliakborswe@gmail.com <span>(Recommended)</span>
                   </p>
                 </li>
                 <li>
