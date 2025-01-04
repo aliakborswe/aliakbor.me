@@ -17,10 +17,11 @@ const Banner = () => {
             <h3>MERN Stack Developer</h3>
             {/* <h3>Software Engineer</h3> */}
             <ul>
-              <li>Programmer</li>
+              {/* <li>Programmer</li> */}
               {/* <li>Backend Developer</li> */}
-              <li>Web Developer</li>
+              <li>Full Stack Developer</li>
               <li>Frontend Developer</li>
+              <li>Backend Developer</li>
             </ul>
             <div>
               <Button

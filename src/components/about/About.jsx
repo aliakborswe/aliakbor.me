@@ -6,6 +6,7 @@ import "./about.css";
 import Container from "../common/container/Container";
 import Title from "../common/title/Title";
 import Button from "../common/button/Button";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -21,14 +22,15 @@ const About = () => {
               the web more open to the world. I am available for any kind of job
               opportunity that suits my interests.
             </p>
-            <div className='about-action '>
-              <Button
-                link='https://github.com/mdaliakbor/aliakbor.me/tree/master/src/data/file/MyResume.pdf'
+            <div className='about-action'>
+              <Link
+                className='btn-download bg-[#15FC08] text-black text-xl font-bold justify-center items-center flex px-4 rounded-md'
                 target='_blank'
-                bgColor='#15FC08'
-                color='#111A28'
-                title='Get Resume'
-              />
+                rel='noopener noreferrer'
+                href='https://wa.me/+8801730255696'
+              >
+                Contact Me
+              </Link>
               <Button
                 clickEvent
                 link='#skill'

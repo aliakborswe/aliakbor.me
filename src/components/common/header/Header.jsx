@@ -1,42 +1,43 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import "./header.css";
 import Container from "../container/Container";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
 import logo1 from "@/assets/svg/logo.svg";
+import Button from "../button/Button";
 
 const Header = () => {
   const [mobileNav, setMobileNav] = useState(false);
 
-  const headerScroll = useRef();
-  if (typeof window !== `undefined`) {
-    let prevScrollPosition = window.scrollY;
-    window.addEventListener("scroll", () => {
-      const curScrollPosition = window.scrollY;
-      const difference = prevScrollPosition - curScrollPosition;
-      const { current } = headerScroll;
-      setMobileNav(false);
-      if (curScrollPosition > 50) {
-        current.classList.add("compaq");
-      } else {
-        current.classList.remove("compaq");
-      }
-      if (difference < 0) {
-        current.classList.add("hide");
-      } else {
-        current.classList.remove("hide");
-      }
-      prevScrollPosition = curScrollPosition;
-    });
-  }
+  // const headerScroll = useRef();
+  // if (typeof window !== `undefined`) {
+  //   let prevScrollPosition = window.scrollY;
+  //   window.addEventListener("scroll", () => {
+  //     const curScrollPosition = window.scrollY;
+  //     const difference = prevScrollPosition - curScrollPosition;
+  //     const { current } = headerScroll;
+  //     setMobileNav(false);
+  //     if (curScrollPosition > 50) {
+  //       current.classList.add("compaq");
+  //     } else {
+  //       current.classList.remove("compaq");
+  //     }
+  //     if (difference < 0) {
+  //       current.classList.add("hide");
+  //     } else {
+  //       current.classList.remove("hide");
+  //     }
+  //     prevScrollPosition = curScrollPosition;
+  //   });
+  // }
 
   const handleScroll = (e) => {
-    e.preventDefault();
-    const hash = e.target.hash;
-    const el = document.querySelector(hash);
-    const offsetTop = el.offsetTop;
+    // e.preventDefault();
+    // const hash = e.target.hash;
+    // const el = document.querySelector(hash);
+    // const offsetTop = el.offsetTop;
     setMobileNav(false);
     if (typeof window !== `undefined`) {
       window.scrollTo({
@@ -47,16 +48,12 @@ const Header = () => {
     }
   };
   return (
-    <header ref={headerScroll} className='compaq'>
+    <header className='compaq'>
       <Container padding='25px 15px'>
         <div className='header'>
           <div className='logo'>
             <Link href='/'>
-              <Image
-                src={logo1}
-                width={45}
-                alt='Picture of the author'
-              />
+              <Image src={logo1} width={45} alt='Picture of the author' />
             </Link>
           </div>
           <div onClick={() => setMobileNav(!mobileNav)} className='mobile-nav'>
@@ -88,20 +85,15 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link target='__blank' rel='noopener noreferrer' href='#'>
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link
-                className='btn-download'
-                target='_blank'
-                rel='noopener noreferrer'
-                href='https://wa.me/+8801730255696'
-              >
-                hire me
-              </Link>
+            <li className='w-36'>
+              <Button
+                download='Ali-Akbor-Resume.pdf'
+                link='/file/MyResume.pdf'
+                target='__blank'
+                bgColor='#15FC08'
+                color='#111A28'
+                title='Get Resume'
+              />
             </li>
           </ul>
         </div>
