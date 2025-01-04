@@ -13,7 +13,7 @@ const LoveToDo = () => {
   return (
     <>
       <Container>
-        <Title side='right' title='Love To Do' height='160px' />
+        <Title side='left' title='Love To Do' height='160px' />
         <div className='love-todo'>
           <div className='love-todo-card'>
             <Image alt='' width={80} height={80} src={reading} />

@@ -31,7 +31,7 @@ const Portfolio = () => {
     <div id='portfolio' className='portfolio-area'>
       <Container>
         {/* title */}
-        <Title side='left' title='Projects' height='160px' />
+        <Title side='right' title='Projects' height='160px' />
 
         {/* portfolio nave items */}
         <div className='portfolios'>
@@ -107,7 +107,7 @@ const Portfolio = () => {
                       </ul>
 
                       {/* portfolio-tools */}
-                      <ul className='portfolio-tools'>
+                      <ul className='portfolio-tools flex flex-wrap gap-4'>
                         <span className='description-title'>Technologies:</span>
                         {portfolio.tools.map((tool, i) => (
                           <span className='tools' key={i}>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                             href={portfolio.serverLink}
                             style={{ textDecoration: "none" }}
                           >
-                            <li>Server Side</li>
+                            <li>Server Code</li>
                           </Link>
                         )}
                         {portfolio.clientLink && (
@@ -145,7 +145,7 @@ const Portfolio = () => {
                             href={portfolio.clientLink}
                             style={{ textDecoration: "none" }}
                           >
-                            <li>Client</li>
+                            <li>Client Code</li>
                           </Link>
                         )}
                       </ul>
@@ -233,7 +233,7 @@ const Portfolio = () => {
                             href={portfolio.serverLink}
                             style={{ textDecoration: "none" }}
                           >
-                            <li>Server Side</li>
+                            <li>Server Code</li>
                           </Link>
                         )}
                         {portfolio.clientLink && (
@@ -243,7 +243,7 @@ const Portfolio = () => {
                             href={portfolio.clientLink}
                             style={{ textDecoration: "none" }}
                           >
-                            <li>Client</li>
+                            <li>Client Code</li>
                           </Link>
                         )}
                       </ul>

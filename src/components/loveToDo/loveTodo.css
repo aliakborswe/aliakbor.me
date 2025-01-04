@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap:30px;
-    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .love-todo-card {
