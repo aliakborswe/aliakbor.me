@@ -34,10 +34,10 @@ const Header = () => {
   // }
 
   const handleScroll = (e) => {
-    // e.preventDefault();
-    // const hash = e.target.hash;
-    // const el = document.querySelector(hash);
-    // const offsetTop = el.offsetTop;
+    e.preventDefault();
+    const hash = e.target.hash;
+    const el = document.querySelector(hash);
+    const offsetTop = el.offsetTop;
     setMobileNav(false);
     if (typeof window !== `undefined`) {
       window.scrollTo({
@@ -75,11 +75,11 @@ const Header = () => {
                 Projects
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link onClick={handleScroll} href='#services'>
                 Services
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link onClick={handleScroll} href='#contact'>
                 Contact
