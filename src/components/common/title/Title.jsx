@@ -15,7 +15,7 @@ const Title = ({ title, social, side, height }) => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://github.com/aliakborswe'
+              href='https://github.com/aliakbordev'
             >
               <FaGithub />
             </Link>
@@ -25,7 +25,7 @@ const Title = ({ title, social, side, height }) => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.linkedin.com/in/aliakborswe'
+              href='https://www.linkedin.com/in/aliakbordev'
             >
               <FaLinkedinIn />
             </Link>
@@ -35,7 +35,7 @@ const Title = ({ title, social, side, height }) => {
             <Link
               target='_blank'
               rel='noopener noreferrer'
-              href='https://twitter.com/aliakborswe'
+              href='https://twitter.com/aliakbordev'
             >
               <FaTwitter />
             </Link>
