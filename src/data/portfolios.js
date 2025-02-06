@@ -40,8 +40,7 @@ export const portfolios = {
       description:
         "This is a user-friendly platform for volunteer management where users can create, update, and delete posts to request volunteers, and also volunteer for others' posts.",
       liveLink: "https://giving-hands.netlify.app/",
-      // clientLink: "https://github.com/aliakborswe/",
-      // serverLink: "https://github.com/aliakborswe/",
+      clientLink: "https://github.com/aliakborswe/giving-hands-client",
       features: [
         "Email/Password login and registration.",
         "Social login (Google).",
@@ -69,7 +68,7 @@ export const portfolios = {
       description:
         "Chill Gamer is a user-friendly platform for exploring and sharing game reviews. Designed with simplicity and functionality in mind, it provides users with an immersive experience to discover and interact with game reviews while keeping the interface 'chill' and intuitive.",
       liveLink: "https://pro-game-review.netlify.app/",
-      // clientLink: "https://github.com/aliakborswe",
+      clientLink: "https://github.com/aliakborswe/discount-pro",
       // serverLink: "https://github.com/aliakborswe/",
       features: [
         "Comprehensive Game Reviews: Explore detailed reviews of popular games, rated and described by users.",
