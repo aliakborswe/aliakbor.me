@@ -11,11 +11,11 @@ const Contact = () => {
     <div id='contact' className='contact-area'>
       <Container>
         <Title side='left' title='Contact' height='160px' />
-        <div className='flex flex-col sm:flex-row  justify-between gap-8 ml-10'>
-          <div className='w-1/2'>
+        <div className='flex flex-col md:flex-row justify-between gap-8 ml-10'>
+          <div className='w-full md:w-1/2'>
             <SentEmail />
           </div>
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2'>
             <div className='contact-details'>
               <p className='pb-10'>
                 I am interested in working with any company that thinks my skill
