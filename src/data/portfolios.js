@@ -1,8 +1,39 @@
 export const portfolios = {
   Web: [
+    //features
     {
-      //features
       id: "1",
+      type: "featured",
+      name: "CampCare+",
+      image: require("/public/images/campcare.png"),
+      description:"The Medical Camp Management System (MCMS) is a robust platform designed to streamline the management and coordination of medical camps. Built with the MERN stack, the platform offers seamless functionality for both organizers and participants.",
+      liveLink: "https://campcarepluse.netlify.app/",
+      clientLink: "https://github.com/aliakborswe/campcare-client",
+      features: [
+        "Seamless Camp Management: Organizers can add, edit, and manage medical camps efficiently.",
+        "User Authentication & Authorization: Secure login system with JWT authentication and social login options.",
+        "Camp Registration: Participants can register for camps, track their status, and view payment history.",
+        "Responsive UI: A fully responsive and user-friendly interface for an optimal experience on all devices.",
+        "Search & Sorting: Easily find camps by name, date, fees, or registration count with advanced filtering options.",
+        "Organizer & Participant Dashboards: Dedicated dashboards for managing profiles, camps, payments, and analytics.",
+        "Feedback & Ratings: Participants can leave reviews and ratings after attending a camp, displayed on the homepage.",
+        "Payment Integration: Secure payment processing using the Stripe API for camp registrations.",
+        "Data Analytics: Interactive charts (Recharts) to visualize participant engagement and camp performance.",
+        "Private Routes & Security: Role-based access with JWT authentication for secure data handling."
+      ],
+      
+      tools: [
+        "TypeScript",
+        "React",
+        "Tailwindcss",
+        "Express",
+        "MongoDB",
+        "Shadcn ui",
+        "Firebase",
+      ],
+    },
+    {
+      id: "2",
       type: "featured",
       name: "Giving Hands",
       image: require("/public/images/GivingHands.png"),
@@ -25,12 +56,13 @@ export const portfolios = {
         "Express",
         "MongoDB",
         "JWT",
+        "Tailwindcss",
         "Shadcn ui",
         "Firebase",
       ],
     },
     {
-      id: "2",
+      id: "3",
       type: "featured",
       name: "Chill Gamer",
       image: require("/public/images/ChillGamer.png"),
@@ -51,43 +83,32 @@ export const portfolios = {
         "React",
         "Express",
         "MongoDB",
+        "Tailwindcss",
         "Shadcn ui",
         "Firebase",
       ],
     },
     {
-      id: "3",
-      type: "featured",
-      name: "Rinterio",
-      image: require("/public/images/Rinterio.png"),
-      description:
-        "Rinterio is a modern smart house design service website, built using HTML5 and Tailwind CSS. It offers users sleek, responsive layouts that emphasize simplicity and functionality. The site highlights innovative solutions for smart home integration, ensuring an intuitive, user-friendly experience for showcasing cutting-edge home design features.",
-      liveLink: "https://aliakborswe.github.io/B10A3/",
-      clientLink: "https://github.com/aliakborswe/B10A3",
-      // serverLink: "#",
-      features: [
-        "Responsive Layout: Fully optimized for mobile, tablet, and desktop devices.",
-        "Interactive Visuals: Engaging, high-quality images and layouts for an immersive experience.",
-        "Minimalist Design: Clean and intuitive user interface for a smooth browsing experience.",
-      ],
-      tools: ["HTML", "Tailwind css"],
-    },
-    {
       id: "4",
       type: "featured",
-      name: "Fitness",
-      image: require("/public/images/Fitness.png"),
+      name: "DiscountPro",
+      image: require("/public/images/discount.png"),
       description:
-        "Fitness is a modern gym center website, built using HTML5 and CSS3, offering a sleek and user-friendly platform to promote fitness programs and services.",
-      liveLink: "https://aliakborswe.github.io/B10A2/",
-      clientLink: "https://github.com/aliakborswe/B10A2",
-      // serverLink: "#",
+        "This Coupon Collecting App helps users find and use discount coupons from popular e-commerce stores in Bangladesh. It gathers available vouchers, allowing users to save money easily. Users can sign up or log in via Firebase Authentication and browse coupons by brand, discount amount, expiry date, and category, with a one-click copy feature.",
+      liveLink: "https://discount-pro.netlify.app/",
+      clientLink: "https://github.com/aliakborswe/discount-pro",
       features: [
-        "Responsive Design: The website adapts to any device, ensuring a seamless experience across mobile, tablet, and desktop.",
-        "Engaging Visuals: High-quality images and CSS animations provide an immersive experience for users.",
-        "Clean Layout: A minimalist and intuitive design that prioritizes usability and accessibility.",
+        "Coupon Interaction: Copy coupon codes effortlessly with a single click using react-copy-to-clipboard.",
+        "User Convenience: Streamlined process to find, browse, and utilize coupons effectively to save money.",
+        "Comprehensive Coupon Collection: Displays details like discount amount, expiry date, and applicable product categories.",
+        "Responsive UI: Enjoy a smooth and consistent experience on all devices, from desktops to mobile phones.",
       ],
-      tools: ["HTML", "CSS3"],
+      tools: [
+        "TypeScript",
+        "React",
+        "Tailwindcss",
+        "Shadcn ui",
+      ],
     },
 
     // // regular
@@ -116,43 +137,40 @@ export const portfolios = {
   ],
 
   Others: [
-    // {
-    //   id: "001",
-    //   type: "featured",
-    //   name: "",
-    //   image: require("/public/images/"),
-    //   description: "",
-    //   liveLink: "https://",
-    //   clientLink: "https://github.com/aliakborswe/fa-frontend1",
-    //   serverLink: "https://github.com/aliakborswe/",
-    //   features: ["tJs", "npm package"],
-    //   tools: ["ReactJs", "npm package"],
-    // },
-    // {
-    //   id: "002",
-    //   type: "featured",
-    //   name: "",
-    //   image: require("/public/images/"),
-    //   description: "",
-    //   liveLink: "#",
-    //   clientLink: "#",
-    //   serverLink: "https://github.com/aliakborswe/",
-    //   features: ["tJs", "Tailwind CSS"],
-    //   tools: ["ReactJs", "Tailwind CSS"],
-    // },
-
-    // regular
-    // {
-    //   id: "003",
-    //   type: "regular",
-    //   name: "",
-    //   description: "",
-    //   liveLink: "https://",
-    //   clientLink: "https://github.com/aliakborswe",
-    //   serverLink: "https://github.com/aliakborswe/",
-    //   features: ["Js", "ReactJs"],
-    //   tools: ["NextJs", "ReactJs"],
-    // },
+    {
+      id: "001",
+      type: "featured",
+      name: "Rinterio",
+      image: require("/public/images/Rinterio.png"),
+      description:
+        "Rinterio is a modern smart house design service website, built using HTML5 and Tailwind CSS. It offers users sleek, responsive layouts that emphasize simplicity and functionality. The site highlights innovative solutions for smart home integration, ensuring an intuitive, user-friendly experience for showcasing cutting-edge home design features.",
+      liveLink: "https://aliakborswe.github.io/B10A3/",
+      clientLink: "https://github.com/aliakborswe/B10A3",
+      // serverLink: "#",
+      features: [
+        "Responsive Layout: Fully optimized for mobile, tablet, and desktop devices.",
+        "Interactive Visuals: Engaging, high-quality images and layouts for an immersive experience.",
+        "Minimalist Design: Clean and intuitive user interface for a smooth browsing experience.",
+      ],
+      tools: ["HTML", "Tailwind css"],
+    },
+    {
+      id: "002",
+      type: "featured",
+      name: "Fitness",
+      image: require("/public/images/Fitness.png"),
+      description:
+        "Fitness is a modern gym center website, built using HTML5 and CSS3, offering a sleek and user-friendly platform to promote fitness programs and services.",
+      liveLink: "https://aliakborswe.github.io/B10A2/",
+      clientLink: "https://github.com/aliakborswe/B10A2",
+      // serverLink: "#",
+      features: [
+        "Responsive Design: The website adapts to any device, ensuring a seamless experience across mobile, tablet, and desktop.",
+        "Engaging Visuals: High-quality images and CSS animations provide an immersive experience for users.",
+        "Clean Layout: A minimalist and intuitive design that prioritizes usability and accessibility.",
+      ],
+      tools: ["HTML", "CSS3"],
+    },
     {
       id: "004",
       type: "regular",
@@ -161,7 +179,6 @@ export const portfolios = {
         "EmCalculator Calculator app simplifies basic arithmetic operations with a user-friendly interface.",
       liveLink: "https://emcalculator.netlify.app/",
       clientLink: "https://github.com/aliakborswe",
-      serverLink: "https://github.com/aliakborswe/",
       features: [
         "Arithmetic Operations: Addition, subtraction, multiplication, and division are supported.",
         "History Tracking: Logs previous calculations for easy reference.",

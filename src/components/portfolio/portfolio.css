@@ -127,16 +127,15 @@
 }
 
 .portfolio-link{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
   text-align: center;
-  gap:30px;
+  gap:20px;
 }
 .portfolio-link li{
   background-color: #15FC08;
   color: #111A28;
-  font-weight: bold;
-  padding: 10px 0px; 
+  padding: 5px 10px 5px 10px; 
   border-radius: 4px;
 }
 
