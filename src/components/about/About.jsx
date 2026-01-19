@@ -24,7 +24,7 @@ const About = () => {
             </p>
             <div className='about-action'>
               <Link
-                className='btn-download bg-[#15FC08] text-black text-xl font-bold justify-center items-center flex px-4 rounded-md'
+                className='btn-download bg-[#64CF5F] text-black text-xl font-bold justify-center items-center flex px-4 rounded-md'
                 target='_blank'
                 rel='noopener noreferrer'
                 href='https://wa.me/+8801730255696'
@@ -36,7 +36,7 @@ const About = () => {
                 link='#skill'
                 ml='15px'
                 title='My Skills'
-                borderColor='#15FC08'
+                borderColor='#64CF5F'
                 color='#E5DCE9'
               />
             </div>

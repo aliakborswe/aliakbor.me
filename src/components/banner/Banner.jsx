@@ -14,11 +14,8 @@ const Banner = () => {
           <div>
             <p>Hello! I am</p>
             <h1>Ali Akbor</h1>
-            <h3>MERN Stack Developer</h3>
-            {/* <h3>Software Engineer</h3> */}
+            <h3>Software Engineer</h3>
             <ul>
-              {/* <li>Programmer</li> */}
-              {/* <li>Backend Developer</li> */}
               <li>Full Stack Developer</li>
               <li>Frontend Developer</li>
               <li>Backend Developer</li>
@@ -26,9 +23,9 @@ const Banner = () => {
             <div>
               <Button
                 download='Ali-Akbor-Resume.pdf'
-                link='/file/MyResume.pdf'
+                link='/file/aliakbor-resume.pdf'
                 target='__blank'
-                bgColor='#15FC08'
+                bgColor='#64CF5F'
                 color='#111A28'
                 title='Get Resume'
               />
@@ -36,7 +33,7 @@ const Banner = () => {
                 clickEvent
                 link='#about'
                 ml='15px'
-                borderColor='#15FC08'
+                borderColor='#64CF5F'
                 color='#E5DCE9'
                 hover='background:red'
                 title='About Me'

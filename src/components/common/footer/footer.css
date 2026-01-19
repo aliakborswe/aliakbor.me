@@ -1,90 +1,89 @@
 .footer-area {
-    background-color: #1d293a;
+  background-color: #1d293a;
 }
 
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer .language ul {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer .language ul li {
-    position: relative;
-    background-color: #111a28;
-    margin-right: 15px;
-    padding: 3px 10px;
-    font-weight: 900;
-    border-radius: 4px;
+  position: relative;
+  background-color: #111a28;
+  margin-right: 15px;
+  padding: 3px 10px;
+  font-weight: 900;
+  border-radius: 4px;
 }
 
 .footer .language ul li p {
-    margin-bottom: 3px;
-    text-transform: uppercase;
+  margin-bottom: 3px;
+  text-transform: uppercase;
 }
 
 .footer .language ul li .progress {
-    position: absolute;
-    content: "";
-    left: 0;
-    background-color: #15FC08;
-    height: 3px;
-    width: 100%;
-    bottom: 0;
-    border-radius: 4px;
+  position: absolute;
+  content: "";
+  left: 0;
+  background-color: #64cf5f;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 4px;
 }
 
 .footer .copyright {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .footer .copyright .github {
-    display: flex;
-    margin-right: 15px;
+  display: flex;
+  margin-right: 15px;
 }
 
 .footer .copyright .github li {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-
 .footer .copyright .github li p {
-    font-weight: 300;
-    font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .footer .copyright p {
-    text-transform: uppercase;
-    font-weight: 900;
+  text-transform: uppercase;
+  font-weight: 900;
 }
 .footer .copyright p span {
-    display: inline-block;
-    cursor: pointer;
-    margin-left: 15px;
-    background-color: #15FC08;
-    color: #111A28;
-    padding:5px;
-    border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+  background-color: #64cf5f;
+  color: #111a28;
+  padding: 5px;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 768px) {
-    .footer>* {
-        flex: 1 1 100%;
-        justify-content: center;
-    }
+  .footer > * {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
 
-    .footer .language ul {
-        justify-content: center;
-        margin-bottom: 30px;
-    }
+  .footer .language ul {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 
-    .footer .language ul li {
-        margin-bottom: 15px;
-    }
+  .footer .language ul li {
+    margin-bottom: 15px;
+  }
 }

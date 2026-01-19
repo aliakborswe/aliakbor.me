@@ -8,8 +8,8 @@ const Education = () => {
       <Title title='Education' height='220px' side='left' />
       <div className='flex flex-col lg:flex-row justify-between items-center gap-8  md:ml-20 pb-10'>
         {/* bsc */}
-        <div className='space-y-2 border-l-2 border-[#15FC08] pl-4'>
-          <h3 className='text-xl font-bold text-[#15FC08]'>
+        <div className='space-y-2 border-l-2 border-[#64CF5F] pl-4'>
+          <h3 className='text-xl font-bold text-[#64CF5F]'>
             B. Sc in Computer Science & Engineering (CSE)
           </h3>
           <p className='text-base'>
@@ -24,8 +24,8 @@ const Education = () => {
           </p>
         </div>
         {/* hsc */}
-        <div className='space-y-2 border-l-2 border-[#15FC08] pl-4'>
-          <h3 className='text-xl font-bold text-[#15FC08]'>
+        <div className='space-y-2 border-l-2 border-[#64CF5F] pl-4'>
+          <h3 className='text-xl font-bold text-[#64CF5F]'>
             H. Sc in Science (Science)
           </h3>
           <p className='text-base'>

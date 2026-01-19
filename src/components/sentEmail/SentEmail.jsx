@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import React, { useRef, useState } from "react";
 
 const SentEmail = () => {
-    const [text, setText] = useState("");
+  const [text, setText] = useState("");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -14,7 +14,7 @@ const SentEmail = () => {
         "service_th30rs9", // Replace with your EmailJS service ID
         "template_2v15o2p", // Replace with your EmailJS template ID
         form.current,
-        "IYW68_7AilkEs8Xg1" // Replace with your public key
+        "IYW68_7AilkEs8Xg1", // Replace with your public key
       )
       .then(
         () => {
@@ -23,7 +23,7 @@ const SentEmail = () => {
         (error) => {
           console.error("Failed to send email:", error.text);
           setText("Failed to send email. Please try again later.");
-        }
+        },
       );
   };
 
@@ -45,7 +45,7 @@ const SentEmail = () => {
                 type='text'
                 autoComplete='given-name'
                 required
-                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#15FC08]'
+                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#64CF5F]'
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ const SentEmail = () => {
                 type='email'
                 autoComplete='email'
                 required
-                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#15FC08]'
+                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#64CF5F]'
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ const SentEmail = () => {
                 name='message'
                 rows={4}
                 required
-                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#15FC08]'
+                className='block w-full rounded-md bg-[#1D293A] px-3.5 py-2 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-[#64CF5F]'
               />
             </div>
           </div>
@@ -89,7 +89,7 @@ const SentEmail = () => {
         <div className='mt-10'>
           <button
             type='submit'
-            className='block w-full rounded-md bg-[#15FC08] px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#15FC08]'
+            className='block w-full rounded-md bg-[#64CF5F] px-3.5 py-2.5 text-center text-sm font-semibold text-black shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#64CF5F]'
           >
             Send Email
           </button>

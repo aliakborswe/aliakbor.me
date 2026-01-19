@@ -35,7 +35,7 @@ const PortfolioAction = () => {
         onClick={handleClick}
         title={title}
         mt='15px'
-        borderColor='#15FC08'
+        borderColor='#64CF5F'
         color='#E5DCE9'
       />
     </div>

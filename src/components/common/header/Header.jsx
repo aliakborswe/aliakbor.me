@@ -1,5 +1,5 @@
 "use client";
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import "./header.css";
 import Container from "../container/Container";
 import Link from "next/link";
@@ -88,9 +88,9 @@ const Header = () => {
             <li className='w-36'>
               <Button
                 download='Ali-Akbor-Resume.pdf'
-                link='/file/MyResume.pdf'
+                link='/file/aliakbor-resume.pdf'
                 target='__blank'
-                bgColor='#15FC08'
+                bgColor='#64CF5F'
                 color='#111A28'
                 title='Get Resume'
               />

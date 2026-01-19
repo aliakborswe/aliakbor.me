@@ -11,7 +11,7 @@ const BacktoTop = () => {
     <div>
       <div
         onClick={handleScroll}
-        className='bg-[#15FC08] text-black flex justify-center items-center text-3xl rounded-full h-10 w-10 fixed right-5 bottom-5 cursor-pointer shadow-lg'
+        className='bg-[#64CF5F] text-black flex justify-center items-center text-3xl rounded-full h-10 w-10 fixed right-5 bottom-5 cursor-pointer shadow-lg'
       >
         <FaAngleUp />
       </div>
