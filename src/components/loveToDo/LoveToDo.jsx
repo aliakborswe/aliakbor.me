@@ -11,7 +11,7 @@ import Title from "../common/title/Title";
 
 const LoveToDo = () => {
   return (
-    <>
+    <div className="py-10 md:py-12 lg:py-14 xl:py-16">
       <Container>
         <Title side='left' title='Love To Do' height='160px' />
         <div className='love-todo'>
@@ -33,7 +33,7 @@ const LoveToDo = () => {
           </div>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

@@ -11,7 +11,7 @@ const Contact = () => {
     <div id='contact' className='contact-area'>
       <Container>
         <Title side='left' title='Contact' height='160px' />
-        <div className='flex flex-col md:flex-row justify-between gap-8 ml-10'>
+        <div className='flex flex-col md:flex-row justify-between gap-8 contact'>
           <div className='w-full md:w-1/2'>
             <SentEmail />
           </div>

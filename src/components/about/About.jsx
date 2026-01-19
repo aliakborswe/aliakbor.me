@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div id='about' className='about-area'>
+    <div id='about'>
       <Container>
         <Title side='right' title='About Me' height='160px' />
         <div className='about'>
@@ -24,7 +24,7 @@ const About = () => {
             </p>
             <div className='about-action'>
               <Link
-                className='btn-download bg-[#64CF5F] text-black text-xl font-bold justify-center items-center flex px-4 rounded-md'
+                className='btn-download bg-[#64CF5F] text-black text-md font-semibold justify-center items-center flex px-4 rounded-md'
                 target='_blank'
                 rel='noopener noreferrer'
                 href='https://wa.me/+8801730255696'
@@ -48,8 +48,6 @@ const About = () => {
                 alt='profile image'
                 src={profile}
                 quality={100}
-                width={100}
-                height={100}
               />
             </div>
           </div>

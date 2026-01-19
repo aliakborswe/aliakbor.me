@@ -28,7 +28,7 @@ const SentEmail = () => {
   };
 
   return (
-    <div className='isolate md:pl-8'>
+    <div className='isolate'>
       <form ref={form} onSubmit={sendEmail}>
         <div className='grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2'>
           <div className='sm:col-span-2'>

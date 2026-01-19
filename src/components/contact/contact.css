@@ -1,6 +1,4 @@
 .contact {
-  display: flex;
-  flex-wrap: wrap;
   padding-left: 100px;
 }
 
@@ -36,7 +34,7 @@
 
 @media only screen and (max-width: 768px) {
   .contact {
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   .contact > * {
@@ -44,13 +42,13 @@
   }
 
   .contact > *:first-of-type {
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 30px;
     text-align: center;
   }
 
   .contact > *:last-of-type {
-    margin-left: 0;
+    margin-left: 0px;
     text-align: center;
   }
 }

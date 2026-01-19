@@ -17,7 +17,7 @@ const RootLayout = ({ children }) =>{
         <head>
           <link rel='icon' href='/file/favicon.svg' sizes='any' />
         </head>
-        <body suppressHydrationWarning={true}>
+        <body suppressHydrationWarning={true} >
           <Header />
           {children}
           <Footer />

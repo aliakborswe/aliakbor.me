@@ -8,9 +8,9 @@ import "./banner.css";
 const Banner = () => {
   return (
     <Container>
-      <div className='banner-area'>
-        <Title title='Follow Me' social height='320px' side='left' />
-        <div className='banner'>
+      <div className='banner-area '>
+        <Title title='Follow Me' social height='320px' side='left'  />
+        <div className='banner '>
           <div>
             <p>Hello! I am</p>
             <h1>Ali Akbor</h1>

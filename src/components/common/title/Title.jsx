@@ -7,7 +7,7 @@ const Title = ({ title, social, side, height }) => {
   return (
     <div
       style={{ height }}
-      className={`title ${side} ${social ? "social" : ""}`}
+      className={`title ${side} ${social ? "social" : ""} `}
     >
       {social && (
         <ul>

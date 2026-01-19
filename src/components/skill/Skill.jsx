@@ -11,7 +11,7 @@ const Skill = () => {
   const [selectedSkill, setSelectedSkill] = useState(skillsName[0]);
   const selectedSkills = skills[selectedSkill];
   return (
-    <div id='skill' className='skill-area'>
+    <div id='skill' className='relative py-6 md:py-8 lg:py-10 xl:py-12'>
       <Container>
         <Title title='My Skills' side='right' height='160px' />
         <div className='skills'>

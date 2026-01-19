@@ -48,7 +48,7 @@ const Header = () => {
     }
   };
   return (
-    <header className='compaq'>
+    <header className='compaq '>
       <Container padding='25px 15px'>
         <div className='header'>
           <div className='logo'>
@@ -85,7 +85,7 @@ const Header = () => {
                 Contact
               </Link>
             </li>
-            <li className='w-36'>
+            <li>
               <Button
                 download='Ali-Akbor-Resume.pdf'
                 link='/file/aliakbor-resume.pdf'
